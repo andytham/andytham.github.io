@@ -7,7 +7,7 @@
 }
 
 
-.projects{
+.projects-wrapper{
   display:flex;
   flex-wrap: wrap;
   align-items: center;
@@ -108,15 +108,15 @@
 /* the next two css learned from https://codepen.io/shshaw/pen/wWQZEB
 to prevent gaps from hiding the individual elements
 */
-.projects {
+.projects-wrapper {
   visibility: hidden;
 }
-.projects > * {
+.projects-wrapper > * {
   visibility: visible;
 }
 
 /* select all but hovered */
-.projects:hover .project:not(:hover) {
+.projects-wrapper:hover .project:not(:hover) {
   opacity:.4;
 }
 

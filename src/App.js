@@ -13,9 +13,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-
-        <Route exact path="/" render={() => <Projects />} />
-        <Route exact path="/about" render={() => <About />} />
+        <Projects />
+        <About />
 
       </div>
     );
