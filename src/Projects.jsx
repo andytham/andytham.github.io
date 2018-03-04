@@ -13,8 +13,12 @@ class Projects extends Component {
   }
 
   renderProjects(projects){
-    return projects.map(project => {
-      return <Project name={project.name} />
+    let sortedProjects = projects.sort((a, b) => {
+      return a.display_id-b.display_id
+    })
+
+    return sortedProjects.map((project, index) => {
+      return <Project project={project} />
     })
   }
   render() {

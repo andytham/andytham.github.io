@@ -1,8 +1,8 @@
 [
   {
-    "display_id": 4,
+    "display_id": 5,
     "name": "Game of Pawns",
-    "description": "",
+    "description": "First project built at GA, ",
     "shortname": "gameofpawns",
     "features": "false",
     "url": "",
@@ -27,18 +27,18 @@
     "github": ""
   },
   {
-    "display_id": 3,
-    "name": "Chess",
-    "shortname": "chess",
+    "display_id": 6,
+    "name": "Anime Pic Picker",
+    "shortname": "animepicpicker",
     "description": "",
     "featured": false,
-    "url": "",
+    "url": "anime-pic-picker.herokuapp.com",
     "github": ""
   },
   {
-    "display_id": 5,
-    "name": "Anime Pic Picker",
-    "shortname": "animepicpicker",
+    "display_id": 4,
+    "name": "Steam Redux",
+    "shortname": "steamredux",
     "description": "",
     "featured": false,
     "url": "anime-pic-picker.herokuapp.com",
