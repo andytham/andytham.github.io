@@ -5,7 +5,13 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        About me here
+        <img src="#" />
+        <div className="links">
+          Find me on:
+          <div className="links-image">
+
+          </div>
+        </div>
       </div>
     );
   }
