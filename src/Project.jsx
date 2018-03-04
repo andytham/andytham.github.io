@@ -7,11 +7,14 @@ class Project extends Component {
     return (
       <div className="project" key={project.key}>
         <div className="project-name"> {project.name} </div>
-        <img className="project-image image-start" src={require(`./images/${project.shortname}-1.png`)} alt="fuck off react warning" />
-        <img className="project-image hover" src={require(`./images/${project.shortname}-2.png`)} alt="fuck off react warning" />
-        <div className="project-technologies hover-text">{project.techonologies}</div>
+        <a target="_blank" href={`https://${project.url}`}>
+          <img className="project-image image-start" src={require(`./images/${project.shortname}-1.png`)} alt="fuck off react warning" />
+          <img className="project-image hover" src={require(`./images/${project.shortname}-2.png`)} alt="fuck off react warning" />
+        </a>
+
         <div className="project-tagline hover-text">{project.tagline}</div>
         <div className="project-description hover-text"> {project.description}</div>
+                <div className="project-technologies hover-text">{project.techonologies}</div>
       </div>
     );
   }
