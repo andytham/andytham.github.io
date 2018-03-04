@@ -12,13 +12,15 @@ class Projects extends Component {
     console.log(projectData);
   }
 
-  renderProjects(){
-    console.log("hello");
+  renderProjects(projects){
+    return projects.map(project => {
+      return <Project name={project.name} />
+    })
   }
   render() {
     return (
       <div className="projects">
-        {this.renderProjects()}
+        {this.renderProjects(projectData)}
       </div>
     );
   }
