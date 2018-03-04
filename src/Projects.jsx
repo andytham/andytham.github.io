@@ -13,12 +13,14 @@ class Projects extends Component {
   }
 
   renderProjects(projects){
+    let count = 0;
     let sortedProjects = projects.sort((a, b) => {
       return a.display_id-b.display_id
     })
 
     return sortedProjects.map((project, index) => {
-      return <Project project={project} />
+      count++;
+      return <Project project={project} key={count}/>
     })
   }
   render() {

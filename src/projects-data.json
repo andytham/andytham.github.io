@@ -2,9 +2,11 @@
   {
     "display_id": 5,
     "name": "Game of Pawns",
-    "description": "First project built at GA, ",
     "shortname": "gameofpawns",
-    "features": "false",
+    "tagline": "Chess for Beginners",
+    "description": "First project built at GA, ",
+    "techonologies": "",
+    "featured": false,
     "url": "",
     "github": ""
   },
@@ -12,7 +14,9 @@
     "display_id": 1,
     "name": "Say Hello World",
     "shortname": "sayhelloworld",
+    "tagline": "",
     "description": "",
+    "techonologies": "",
     "featured": true,
     "url": "andytham-hello-world.herokuapp.com",
     "github": ""
@@ -21,7 +25,9 @@
     "display_id": 2,
     "name": "Thank Heaven",
     "shortname": "thankheaven",
+    "tagline": "",
     "description": "",
+    "techonologies": "",
     "featured": false,
     "url": "thank-heaven.herokuapp.com",
     "github": ""
@@ -30,7 +36,9 @@
     "display_id": 6,
     "name": "Anime Pic Picker",
     "shortname": "animepicpicker",
+    "tagline": "",
     "description": "",
+    "techonologies": "",
     "featured": false,
     "url": "anime-pic-picker.herokuapp.com",
     "github": ""
@@ -39,7 +47,9 @@
     "display_id": 4,
     "name": "Steam Redux",
     "shortname": "steamredux",
+    "tagline": "",
     "description": "",
+    "techonologies": "",
     "featured": false,
     "url": "anime-pic-picker.herokuapp.com",
     "github": ""

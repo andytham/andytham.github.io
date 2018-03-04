@@ -1,0 +1,110 @@
+*{
+  transition: .3s all;
+}
+.projects{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin:0 auto;
+}
+.tagline{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.project{
+  width: 250px;
+  height: 350px;
+  text-align:center;
+  margin:20px;
+}
+.image-wrapper{
+
+}
+.project-image{
+  width: 250px;
+  height: 250px;
+  overflow:hidden;
+  border-radius: 25%;
+  opacity: 1;
+  border-radius: 25%;
+  opacity: 1;
+}
+
+.project-image.hover{
+  opacity: 1;
+  margin: 0 0 10px 0;
+  position: relative;
+  top: -257px;
+  z-index: -1;
+  border-radius: 25%;
+}
+
+.hover-text{
+  top: -260px;
+}
+
+.project-tagline{
+  text-decoration: underline;
+  font-size: 22px;
+  margin: 0 0 5px 0;
+  opacity: 0;
+  position: relative;
+  top: -170px;
+}
+.project:hover .project-tagline{
+  opacity: 1;
+  top: -240px;
+}
+
+.project-description{
+  font-size:18px;
+  opacity: 1;
+  position:relative;
+  top: -270px;
+}
+.project:hover .project-description{
+  opacity:1;
+  top: -200px;
+}
+
+.project:hover .hover{
+  display:block;
+  opacity: 1;
+}
+
+
+
+
+
+.project:hover .project-image.image-start{
+  opacity:0;
+}
+
+/* the next two css learned from https://codepen.io/shshaw/pen/wWQZEB
+to prevent gaps from hiding the individual elements
+*/
+.projects {
+  visibility: hidden;
+}
+.projects > * {
+  visibility: visible;
+}
+
+/* select all but hovered */
+.projects:hover .project:not(:hover) {
+  opacity:.4;
+}
+
+a{
+    color: rgb(201, 68, 68);
+}
+.proj-link{
+  color: rgb(201, 68, 68);
+}
+
+li{
+  list-style-type: none;
+}
