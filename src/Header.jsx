@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 
 class Header extends React.Component {
@@ -37,7 +36,7 @@ class Header extends React.Component {
         </div>
         <div id="nav-wrapper" className='nav-wrapper'>
           <div className="nav">
-            <Link className="nav-link" to="/"> home </Link>
+            <a className="nav-link" href="/"> home </a>
           </div>
           <div className="nav">
             <a className="nav-link" href="#test"> about </a>
