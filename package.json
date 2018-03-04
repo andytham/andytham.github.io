@@ -12,6 +12,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "dev": "nodemon app.js"
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "homepage": "https://andytham.github.io/",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
