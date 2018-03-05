@@ -1,0 +1,23 @@
+.me{
+  width: 200px;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+.about{
+  display:flex;
+  max-width: 600px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.info{
+  width: 50
+}
+
+.tech{
+  text-align: center;
+  margin: 50px;
+}

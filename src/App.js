@@ -6,6 +6,7 @@ import About from './About';
 import './css/style.css';
 import './css/header.css';
 import './css/project.css';
+import './css/about.css';
 
 class App extends Component {
 

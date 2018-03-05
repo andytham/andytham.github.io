@@ -15,7 +15,12 @@
   width: 80%;
   margin:0 auto;
 }
-
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  margin: 40px 0 20px 0;
+}
 .project{
   width: 250px;
   height: 450px;

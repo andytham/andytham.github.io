@@ -48,7 +48,7 @@
     "name": "Steam Redux",
     "shortname": "steamredux",
     "tagline": "Minified Steam news profile viewer",
-    "description": "Grab news from your favorite Steam games and search up profiles.",
+    "description": "Grab news from your favorite Steam games and search up profiles. An exercise in auth/devise.",
     "techonologies": "Ruby on Rails",
     "featured": false,
     "url": "anime-pic-picker.herokuapp.com",

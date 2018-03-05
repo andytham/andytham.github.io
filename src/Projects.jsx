@@ -25,14 +25,13 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div className="projects">
-        <div className="projects-title">
+      <div id="projects" className="projects">
+        <div className="projects-title title">
           Projects
         </div>
         <div className="projects-wrapper">
           {this.renderProjects(projectData)}
         </div>
-        <div id="test">test</div>
       </div>
     );
   }
