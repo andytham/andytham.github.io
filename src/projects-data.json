@@ -1,13 +1,13 @@
 [
   {
-    "display_id": 5,
+    "display_id": 3,
     "name": "Game of Pawns",
     "shortname": "gameofpawns",
     "tagline": "Chess for Beginners",
     "description": "Variation of chess where the only pieces are pawns, created from scratch, 1st project at GA.",
     "techonologies": "jQuery",
     "featured": false,
-    "url": "",
+    "url": "https://codepen.io/andytham/pen/goOGPZ",
     "github": ""
   },
   {
@@ -44,7 +44,7 @@
     "github": ""
   },
   {
-    "display_id": 4,
+    "display_id": 5,
     "name": "Steam Redux",
     "shortname": "steamredux",
     "tagline": "Minified Steam news profile viewer",
