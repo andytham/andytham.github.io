@@ -1,11 +1,19 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
-  background-color: rgb(186, 180, 180);
+  /* background-color: rgb(186, 180, 180); */
+  background-color: rgb(230, 230, 230);
   color: rgb(244, 66, 66);
   color: rgb(201, 68, 68);
 }
 
 ul{
   padding-left: 0;
+}
+
+.hr{
+  margin: 20px auto;
+  display:block;
+
+  text-align: center;
 }

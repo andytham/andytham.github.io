@@ -14,10 +14,16 @@
 }
 
 .info{
-  width: 50
+  width: 70%;
+  margin: 20px;
 }
 
 .tech{
   text-align: center;
   margin: 50px;
+}
+
+.link{
+  text-align: center;
+  width: 70%;
 }

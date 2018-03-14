@@ -14,13 +14,13 @@ class About extends Component {
             <br />
             <div className="links">
               <div className="link">
-                GitHub: https://github.com/andytham
+                <a href="https://github.com/andytham"> GitHub </a>
               </div>
               <div className="link">
-                LinkedIn: https://linkedin.com/andytham
+                <a href="https://linkedin.com/andytham"> LinkedIn </a>
               </div>
               <div className="link">
-                E-mail: thamandyy@gmail.com
+                <a href="thamandyy@gmail.com"> E-mail </a>
               </div>
             </div>
           </div>

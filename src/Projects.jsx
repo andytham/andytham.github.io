@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FeaturedProject from './FeaturedProject';
 import Project from './Project';
 import projectData from './projects-data.json';
 
@@ -20,7 +21,16 @@ class Projects extends Component {
 
     return sortedProjects.map((project, index) => {
       count++;
-      return <Project project={project} key={count}/>
+      if (!project.featured){
+        return <Project project={project} key={count}/>
+      }
+    })
+  }
+  renderFeatured(projects){
+    return projects.map((project, index) => {
+      if (project.featured){
+        return <FeaturedProject project={project}/>
+      }
     })
   }
   render() {
@@ -29,7 +39,11 @@ class Projects extends Component {
         <div className="projects-title title">
           Projects
         </div>
+        <div className="projects-featured">
+
+        </div>
         <div className="projects-wrapper">
+          {this.renderFeatured(projectData)}
           {this.renderProjects(projectData)}
         </div>
       </div>

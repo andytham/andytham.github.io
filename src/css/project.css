@@ -27,6 +27,14 @@
   text-align:center;
   margin:20px 50px;
 }
+.project-featured{
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  margin:20px 50px;
+
+  align-self:stretch;
+}
 
 .project-name{
   font-size: 22px;
@@ -36,6 +44,8 @@
 .project:hover .project-name{
   text-decoration: underline;
 }
+
+
 
 .project-image{
   width: 250px;
@@ -50,7 +60,7 @@
 }
 
 .project-image.hover{
-  opacity: 1;
+  opacity: 0;
   position: relative;
   border-color: rgb(201, 68, 68);
   top: -257px;
@@ -59,9 +69,35 @@
   margin-bottom: 16px;
 }
 
-.hover-text{
-  top: -260px;
+.project-image.featured-start{
+  width: 700px;
+  height: 394px;
+  overflow:hidden;
+  top: 0;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  opacity: 1;
+  box-shadow: -2px 2px 2px var(--dark);
+  margin: 5px;
 }
+
+.project-image.featured-end{
+  opacity: 0;
+  position:relative;
+  top: -410px;
+}
+
+.project:hover .featured-start{
+  opacity: 0;
+}
+.project:hover .featured-end{
+  opacity: 1;
+}
+
+.hover-text{
+  top: -660px;
+}
+
 
 .project-tagline{
   font-size: 18px;
@@ -109,6 +145,12 @@
 .project:hover .project-image.image-start{
   opacity:0;
 }
+/*  */
+
+.text-wrapper{
+  position: relative;
+  top: -125px;
+}
 
 /* the next two css learned from https://codepen.io/shshaw/pen/wWQZEB
 to prevent gaps from hiding the individual elements
@@ -119,7 +161,12 @@ to prevent gaps from hiding the individual elements
 .projects-wrapper > * {
   visibility: visible;
 }
-
+.project-featured {
+  visibility: hidden;
+}
+.project-featured > * {
+  visibility: visible;
+}
 /* select all but hovered */
 .projects-wrapper:hover .project:not(:hover) {
   opacity:.4;
@@ -134,4 +181,19 @@ a{
 
 li{
   list-style-type: none;
+}
+
+@media only screen and (max-width: 480px){
+  .project-technologies{
+    opacity: 1;
+  }
+  .project-name{
+    opacity: 1;
+  }
+  .project-tagline{
+    opacity: 1;
+  }
+  .project-description{
+    opacity: 1;
+  }
 }
