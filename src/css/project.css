@@ -25,7 +25,7 @@
   width: 250px;
   height: 450px;
   text-align:center;
-  margin:20px 50px;
+  margin:20px 40px;
 }
 .project-featured{
   width: 100%;
@@ -182,18 +182,52 @@ a{
 li{
   list-style-type: none;
 }
+.anchor-image{
+  margin: -2000px 0;
+}
 
+.featured-big{
+  display: block;
+}
+.featured-small{
+  display: none;
+}
+
+@media only screen and (max-width: 800px){
+  .projects-wrapper{
+    width: 100%;
+  }
+
+  .featured-big{
+    display: none;
+  }
+  .featured-small{
+    display: block;
+  }
+}
 @media only screen and (max-width: 480px){
   .project-technologies{
     opacity: 1;
+    position: relative;
+    top: -255px;
+    left: 0;
   }
-  .project-name{
+  /* .project-name{
     opacity: 1;
-  }
+    position: relative;
+    top: -255px;
+    left: 0;
+  } */
   .project-tagline{
     opacity: 1;
+    position: relative;
+    top: -255px;
+    left: 0;
   }
   .project-description{
     opacity: 1;
+    position: relative;
+    top: -255px;
+    left: 0;
   }
 }

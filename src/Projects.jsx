@@ -23,6 +23,8 @@ class Projects extends Component {
       count++;
       if (!project.featured){
         return <Project project={project} key={count}/>
+      } else {
+        return <Project project={project} key={count} />
       }
     })
   }
@@ -38,9 +40,6 @@ class Projects extends Component {
       <div id="projects" className="projects">
         <div className="projects-title title">
           Projects
-        </div>
-        <div className="projects-featured">
-
         </div>
         <div className="projects-wrapper">
           {this.renderFeatured(projectData)}
