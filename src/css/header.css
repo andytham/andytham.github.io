@@ -1,9 +1,8 @@
 .header{
   width: 100%;
   text-align:center;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
 }
 .name-wrapper{
   margin: 30px;
@@ -46,7 +45,7 @@
 }
 
 #nav-sticky{
-  display:grid;
+  display: flex;
   align-items: center;
   grid-template-columns: 1fr 100px 100px;
   justify-content: flex-start;
@@ -66,10 +65,21 @@
   text-align: left;
   margin: 0 0 0 20px;
 }
-
+.nav-link.sticky{
+  margin: 0 20px 0 0;
+}
 .sticky-hide{
   opacity: 0;
 }
 .sticky-show{
   opacity: 1;
+}
+
+@media only screen and (max-width: 420px){
+  #nav-wrapper{
+    width: 80%;
+  }
+  .sticky-name{
+    margin: 0 0 0 10px;
+  }
 }
