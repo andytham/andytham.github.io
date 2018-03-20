@@ -9,7 +9,7 @@ class About extends Component {
           <img className="me" src={require("./images/me.jpg")} />
           <div className="info-wrapper">
             <div className="info">
-              Hello, I'm Andy, a full stack web developer, and I like to think I'm pretty creative. Please contact me if you have any questions! This site is a work in progress.
+              Hello, I'm Andy, a full stack web developer, and my strengths include my logical thinking and creativity. Please contact me if you have any questions! This site is a work in progress.
             </div>
             <br />
             <div className="links">
