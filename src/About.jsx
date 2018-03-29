@@ -17,7 +17,7 @@ class About extends Component {
                 <a href="https://github.com/andytham"> GitHub </a>
               </div>
               <div className="link">
-                <a href="https://linkedin.com/andytham"> LinkedIn </a>
+                <a href="https://linkedin.com/in/andytham"> LinkedIn </a>
               </div>
               <div className="link">
                 <a href="mailto:thamandyy@gmail.com"> thamandyy@gmail.com </a>
