@@ -2,11 +2,9 @@
   --dark: rgb(74, 74, 74);
 }
 
-*{
+* {
   transition: .3s all;
 }
-
-
 .projects-wrapper{
   display:flex;
   flex-wrap: wrap;
@@ -14,6 +12,7 @@
   justify-content: center;
   width: 80%;
   margin:0 auto;
+
 }
 .title{
   text-align: center;
