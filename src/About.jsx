@@ -26,7 +26,7 @@ class About extends Component {
           </div>
         </div>
         <div className="tech">
-          Ruby on Rails, Node.js, React.js, Express.js, D3.js, CSS3, ES6,
+          D3.js, Ruby on Rails, Node.js, React.js, Express.js, CSS3, HTML5, JavaScript ES6
         </div>
       </div>
     );
