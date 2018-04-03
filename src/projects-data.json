@@ -7,7 +7,7 @@
     "description": "Variation of chess where the only pieces are pawns, created from scratch, 1st project at GA.",
     "techonologies": "jQuery",
     "featured": false,
-    "url": "game-of-pawns.andytham.com",
+    "url": "http://game-of-pawns.andytham.com",
     "github": ""
   },
   {
@@ -18,7 +18,7 @@
     "description": "An app where you can click on a country and it'll say \"hello\" in their official languages!",
     "techonologies": "React.js, Rails, D3.js",
     "featured": true,
-    "url": "hello-world.andytham.com",
+    "url": "http://hello-world.andytham.com",
     "github": "https://github.com/andytham/hello-world"
   },
   {
@@ -30,7 +30,7 @@
     "techonologies": "React.js, Express.js",
     "featured": false,
     "url": "thank-heaven.herokuapp.com",
-    "github": ""
+    "github": "https://github.com/andytham/thank-heaven"
   },
   {
     "display_id": 6,
