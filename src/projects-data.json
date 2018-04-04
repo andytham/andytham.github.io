@@ -29,7 +29,7 @@
     "description": "A website for a real client with fully working admin page, built off using mockups created by a UX team.",
     "techonologies": "React.js, Express.js",
     "featured": false,
-    "url": "thank-heaven.herokuapp.com",
+    "url": "https://thank-heaven.herokuapp.com",
     "github": "https://github.com/andytham/thank-heaven"
   },
   {
@@ -40,7 +40,7 @@
     "description": "Grab anime style images using safebooru's API (SFW user moderated image board).",
     "techonologies": "EJS",
     "featured": false,
-    "url": "anime-pic-picker.herokuapp.com",
+    "url": "https://anime-pic-picker.herokuapp.com",
     "github": ""
   },
   {
@@ -51,7 +51,7 @@
     "description": "Grab news from your favorite Steam games and search up profiles. An exercise in auth/devise.",
     "techonologies": "Ruby on Rails",
     "featured": false,
-    "url": "steam-redux.herokuapp.com",
+    "url": "https://steam-redux.herokuapp.com",
     "github": ""
   }
 ]
