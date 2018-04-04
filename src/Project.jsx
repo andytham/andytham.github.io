@@ -8,7 +8,7 @@ class Project extends Component {
       return (
         <div className="project featured-small" key={project.key}>
           <div className="project-name"> {project.name} </div>
-          <a className="anchor-image" target="_blank" href={`https://${project.url}`}>
+          <a className="anchor-image" target="_blank" href={`${project.url}`}>
             <img className="project-image image-start" src={require(`./images/${project.shortname}-1.png`)} alt="fuck off react warning" />
             <img className="project-image hover" src={require(`./images/${project.shortname}-2.png`)} alt="fuck off react warning" />
           </a>
