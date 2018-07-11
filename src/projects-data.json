@@ -1,6 +1,6 @@
 [
   {
-    "display_id": 3,
+    "display_id": 4,
     "name": "Game of Pawns",
     "shortname": "gameofpawns",
     "tagline": "Chess for Beginners",
@@ -9,9 +9,20 @@
     "featured": false,
     "url": "http://game-of-pawns.andytham.com",
     "github": ""
-  },
+  },  
   {
     "display_id": 1,
+    "name": "Chat",
+    "shortname": "chat",
+    "tagline": "A Full Funtional Chatroom!",
+    "description": "A chat room, created and deploy as microservices, but currently running on this site as a monolith. No need to register with real emails, but watch the profanity!",
+    "techonologies": "React.js, Express, Spring Boot, Socket.io, auth0, Webpack, Docker, AWS",
+    "featured": true,
+    "url": "http://chat.andytham.com",
+    "github": "https://github.com/andytham/chat-react"
+  },
+  {
+    "display_id": 2,
     "name": "Hello, World",
     "shortname": "helloworld",
     "tagline": "How to say \"Hello\" in (almost) every language!",
@@ -22,7 +33,7 @@
     "github": "https://github.com/andytham/hello-world"
   },
   {
-    "display_id": 2,
+    "display_id": 3,
     "name": "Thank Heaven",
     "shortname": "thankheaven",
     "tagline": "Website for A Children's Boutique",
