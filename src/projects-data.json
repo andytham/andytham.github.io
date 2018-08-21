@@ -14,7 +14,7 @@
     "display_id": 1,
     "name": "Chat",
     "shortname": "chat",
-    "tagline": "A Full Funtional Chatroom!",
+    "tagline": "A Fully Functional Chatroom!",
     "description": "A chat room, created and deploy as microservices, but currently running on this site as a monolith. No need to register with real emails, but watch the profanity!",
     "techonologies": "React.js, Express, Spring Boot, Socket.io, auth0, Webpack, Docker, AWS",
     "featured": true,
