@@ -12,7 +12,7 @@ class Header extends React.Component {
   }
   sticky(){
     let nav = document.getElementById("nav-sticky");
-    console.log("hello");
+    // console.log("hello");
     var y = window.scrollY;
     // if (y >= 200) {
     //   nav.className = "nav-wrapper sticky-hide"

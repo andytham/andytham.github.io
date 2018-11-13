@@ -10,7 +10,7 @@ class Projects extends Component {
   }
 
   componentDidMount(){
-    console.log(projectData);
+    // console.log(projectData);
   }
 
   renderProjects(projects){
