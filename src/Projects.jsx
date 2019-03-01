@@ -29,9 +29,12 @@ class Projects extends Component {
     })
   }
   renderFeatured(projects){
+    let count = 0;
     return projects.map((project, index) => {
       if (project.featured){
-        return <FeaturedProject project={project}/>
+        return <FeaturedProject project={project} key={count++}/>
+      } else {
+        return false;
       }
     })
   }
