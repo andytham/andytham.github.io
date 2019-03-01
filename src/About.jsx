@@ -6,10 +6,10 @@ class About extends Component {
     return (
       <div className="about-wrapper">
         <div id="about" className="about">
-          <img className="me" src={require("./images/me2.png")} />
+          <img className="me" src={require("./images/me2.png")} alt=""/>
           <div className="info-wrapper">
             <div className="info">
-              Hello, I'm Andy, a full stack web developer, and my strengths include my logical thinking and creativity. Please contact me if you have any questions! This site is a work in progress.
+              Hello, I'm Andy, a full stack web developer, and my strengths include my problem solving and creativity. Please contact me if you have any questions!
             </div>
             <br />
             <div className="links">
