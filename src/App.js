@@ -3,6 +3,9 @@ import Header from './Header';
 import Projects from './Projects';
 import About from './About';
 import hr from './images/hr.png'
+import { Route } from 'react-router-dom';
+import Home from './Home';
+import Birds from './Birds';
 import './css/style.css';
 import './css/header.css';
 import './css/project.css';
@@ -12,13 +15,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header />
-        <img className="hr" src={hr} />
-        <Projects />
-        <img className="hr" src={hr} />
-        <About />
-
+      <div className="All">
+      <Route exact path="/" render={()=> <Home />} />
+        <Route exact path="/birds" render={()=> <Birds />} />
       </div>
     );
   }
