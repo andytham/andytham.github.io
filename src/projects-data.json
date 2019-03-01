@@ -8,7 +8,8 @@
     "techonologies": "jQuery",
     "featured": false,
     "url": "http://game-of-pawns.andytham.com",
-    "github": ""
+    "github": "",
+    "hidden": false
   },  
   {
     "display_id": 1,
@@ -19,7 +20,8 @@
     "techonologies": "React.js, Express, Spring Boot, Socket.io, auth0, Webpack, Docker, AWS",
     "featured": true,
     "url": "http://chat.andytham.com",
-    "github": "https://github.com/andytham/chat-react"
+    "github": "https://github.com/andytham/chat-react",
+    "hidden": false
   },
   {
     "display_id": 2,
@@ -30,7 +32,8 @@
     "techonologies": "React.js, Rails, D3.js",
     "featured": true,
     "url": "http://hello-world.andytham.com",
-    "github": "https://github.com/andytham/hello-world"
+    "github": "https://github.com/andytham/hello-world",
+    "hidden": false
   },
   {
     "display_id": 3,
@@ -41,7 +44,8 @@
     "techonologies": "React.js, Express.js",
     "featured": false,
     "url": "http://thank-heaven.andytham.com",
-    "github": "https://github.com/andytham/thank-heaven"
+    "github": "https://github.com/andytham/thank-heaven",
+    "hidden": false
   },
   {
     "display_id": 6,
@@ -52,7 +56,8 @@
     "techonologies": "EJS",
     "featured": false,
     "url": "https://anime-pic-picker.herokuapp.com",
-    "github": ""
+    "github": "",
+    "hidden": true
   },
   {
     "display_id": 5,
@@ -63,6 +68,19 @@
     "techonologies": "Ruby on Rails",
     "featured": false,
     "url": "https://steam-redux.herokuapp.com",
-    "github": ""
+    "github": "",
+    "hidden": false
+  },
+  {
+    "display_id": 7,
+    "name": "Harmony of Birds",
+    "shortname": "harmonyofbirds",
+    "tagline": "Create music with birds!",
+    "description": "Create beautiful music through this app inspired by the video 'Birds on The Wires' by Jarbas Agnelli.",
+    "techonologies": "Adobe Director, Lingo",
+    "featured": false,
+    "url": "http://andytham.com/birds",
+    "github": "",
+    "hidden": false
   }
 ]
