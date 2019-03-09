@@ -1,6 +1,6 @@
 [
   {
-    "display_id": 4,
+    "display_id": 6,
     "name": "Game of Pawns",
     "shortname": "gameofpawns",
     "tagline": "Chess for Beginners",
@@ -12,11 +12,11 @@
     "hidden": false
   },  
   {
-    "display_id": 1,
+    "display_id": 4,
     "name": "Chat",
     "shortname": "chat",
     "tagline": "A Fully Functional Chatroom!",
-    "description": "A chat room, created and deployed as microservices, but currently running as a monolith. No need to register with real emails.",
+    "description": "A chatroom, created and deployed as microservices, but currently running as a monolith. No need to register with real emails.",
     "techonologies": "React.js, Express, Spring Boot, Socket.io, auth0, Webpack, Docker, AWS",
     "featured": true,
     "url": "http://chat.andytham.com",
@@ -24,11 +24,11 @@
     "hidden": false
   },
   {
-    "display_id": 2,
+    "display_id": 3,
     "name": "Hello, World",
     "shortname": "helloworld",
     "tagline": "How to say \"Hello\" in (almost) every language!",
-    "description": "An app where you can click on a country and it'll say \"hello\" in their official languages!",
+    "description": "Hear how to say hello in the language of countries all over the world.",
     "techonologies": "React.js, Rails, D3.js",
     "featured": true,
     "url": "http://hello-world.andytham.com",
@@ -36,7 +36,7 @@
     "hidden": false
   },
   {
-    "display_id": 3,
+    "display_id": 7 ,
     "name": "Thank Heaven",
     "shortname": "thankheaven",
     "tagline": "Website for A Children's Boutique",
@@ -48,7 +48,7 @@
     "hidden": false
   },
   {
-    "display_id": 6,
+    "display_id": 20,
     "name": "Anime Pic Picker",
     "shortname": "animepicpicker",
     "tagline": "Pick some pics",
@@ -60,7 +60,7 @@
     "hidden": true
   },
   {
-    "display_id": 5,
+    "display_id": 9,
     "name": "Steam Redux",
     "shortname": "steamredux",
     "tagline": "Minified Steam news profile viewer",
@@ -72,7 +72,7 @@
     "hidden": false
   },
   {
-    "display_id": 7,
+    "display_id": 8,
     "name": "Harmony of Birds",
     "shortname": "harmonyofbirds",
     "tagline": "Create music with birds!",
@@ -80,6 +80,18 @@
     "techonologies": "Adobe Director, Lingo",
     "featured": false,
     "url": "http://andytham.com/birds",
+    "github": "",
+    "hidden": false
+  },
+  {
+    "display_id": 1,
+    "name": "MKDREAMDESIGN",
+    "shortname": "mkdreamdesign",
+    "tagline": "Interior Design",
+    "description": "MKDREAMDESIGN is an Architecture, Interior Design, and Visual branding firm where dreams become reality.",
+    "techonologies": "",
+    "featured": true,
+    "url": "https//mkdreamdesign.com",
     "github": "",
     "hidden": false
   }
