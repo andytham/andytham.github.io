@@ -36,10 +36,10 @@ class Header extends React.Component {
         </div>
         <div id="nav-wrapper" className='nav-wrapper'>
           <div className="nav">
-            <a className="nav-link" href="#projects"> home </a>
+            <a className="nav-link" href="http://andytham.com"> home </a>
           </div>
           <div className="nav">
-            <a className="nav-link" href="#about"> about </a>
+            <a className="nav-link" href="http://andytham.com/#about"> about </a>
           </div>
           <div className="nav">
             <a className="nav-link" href="https://github.com/andytham"> github </a>
