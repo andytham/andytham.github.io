@@ -2,9 +2,12 @@
   --dark: rgb(74, 74, 74);
 }
 
-* {
+.header *, .projects-wrapper *, .name{
   transition: .3s all;
 }
+/* * {
+  transition: .3s all;
+} */
 .projects-wrapper{
   display:flex;
   flex-wrap: wrap;
@@ -190,10 +193,6 @@ li{
 }
 .featured-small{
   display: none;
-}
-
-.project-featured > .text-wrapper{
-  top: -150px;
 }
 
 @media only screen and (max-width: 800px){

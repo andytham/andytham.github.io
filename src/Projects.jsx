@@ -9,30 +9,23 @@ class Projects extends Component {
     this.renderProjects = this.renderProjects.bind(this);
   }
 
-  componentDidMount(){
-    // console.log(projectData);
-  }
-
   renderProjects(projects){
-    let count = 0;
     let sortedProjects = projects.sort((a, b) => {
       return a.display_id-b.display_id
     })
 
     return sortedProjects.map((project, index) => {
-      count++;
       if (!project.featured){
-        return <Project project={project} key={count}/>
+        return <Project project={project} key={index}/>
       } else {
-        return <Project project={project} key={count} />
+        return <Project project={project} key={index} />
       }
     })
   }
   renderFeatured(projects){
-    let count = 0;
     return projects.map((project, index) => {
       if (project.featured){
-        return <FeaturedProject project={project} key={count++}/>
+        return <FeaturedProject project={project} key={index}/>
       } else {
         return false;
       }
