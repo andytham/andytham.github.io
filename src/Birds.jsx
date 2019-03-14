@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import hr from './images/hr.png'
 
 import './css/birds.css'
 
@@ -8,8 +6,6 @@ class Birds extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <img className="hr" src={hr} alt=""/>
 				<div className="birds">
 					<span className="birds-header">Harmony of Birds</span>
 					<br/>
@@ -32,8 +28,7 @@ class Birds extends Component {
 					<iframe title="inspiration" className="inspiration-video" width="448" height="252" src="https://www.youtube.com/embed/LoM4ZZJ2UrM" frameBorder="0" allowFullScreen></iframe>
 					
 					<br/>
-					
-					<img className="hr" src={hr} alt=""/>
+			
 				</div>
       </div>
     );
