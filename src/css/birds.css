@@ -1,5 +1,9 @@
 .birds{
-	width: 720px;
+	width: 500px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.birds-header{
+	font-size: 22px;
 }
