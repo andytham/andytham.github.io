@@ -1,7 +1,7 @@
 .me{
   height: 200px;
   border-radius: 50%;
-  margin: 50px;
+  margin: 50px 15px;
 
 }
 .about > * {
@@ -9,7 +9,7 @@
 }
 .about{
   display:flex;
-  max-width: 600px;
+  max-width: 550px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -17,18 +17,19 @@
 }
 
 .info{
-  width: 70%;
+  width: 80%;
   margin: 20px;
 }
 
 .tech{
-  text-align: center;
-  margin: 50px;
+  text-align: justify;
+  max-width: 500px;
+  margin: 50px auto;
 }
 
 .link{
   text-align: center;
-  width: 70%;
+  width: 80%;
 }
 @media only screen and (max-width: 800px){
   .about{
