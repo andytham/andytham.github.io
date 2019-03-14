@@ -19,7 +19,7 @@ class Birds extends Component {
 					<br/>
 					As it requires Adobe Shockwave or running an exe locally, I have created a video of it in action.
 					<br/>
-					<iframe width="512" height="384"
+					<iframe className="birds-video" width="512" height="384"
 						src="https://www.youtube.com/embed/ouMQ5YsdPxc ">
 					</iframe> 
 					<br/>
@@ -29,9 +29,7 @@ class Birds extends Component {
 					Inspired by this video:
 					
 					<br/>
-					<iframe width="420" height="315"
-						src="https://www.youtube.com/embed/LoM4ZZJ2UrM ">
-					</iframe> 
+					<iframe className="inspiration-video" width="448" height="252" src="https://www.youtube.com/embed/LoM4ZZJ2UrM" frameborder="0" allowfullscreen></iframe>
 					
 					<br/>
 				</div>
