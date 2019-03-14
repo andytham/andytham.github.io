@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Projects from './Projects';
-import About from './About';
-import hr from './images/hr.png'
 import { Route } from 'react-router-dom';
 import Home from './Home';
 import Birds from './Birds';
