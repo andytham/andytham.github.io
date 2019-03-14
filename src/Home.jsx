@@ -13,7 +13,6 @@ class Home extends Component {
         <img className="hr" src={hr} alt=""/>
         <Projects />
         <img className="hr" src={hr} alt=""/>
-        <About />
       </div>
     );
   }

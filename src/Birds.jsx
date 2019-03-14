@@ -9,7 +9,7 @@ class Birds extends Component {
     return (
       <div className="App">
         <Header />
-        <img className="hr" src={hr} alt="hr" />
+        <img className="hr" src={hr} alt=""/>
 				<div className="birds">
 					<span className="birds-header">Harmony of Birds</span>
 					<br/>
@@ -32,6 +32,8 @@ class Birds extends Component {
 					<iframe title="inspiration" className="inspiration-video" width="448" height="252" src="https://www.youtube.com/embed/LoM4ZZJ2UrM" frameBorder="0" allowFullScreen></iframe>
 					
 					<br/>
+					
+					<img className="hr" src={hr} alt=""/>
 				</div>
       </div>
     );
