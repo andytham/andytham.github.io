@@ -192,6 +192,10 @@ li{
   display: none;
 }
 
+.project-featured > .text-wrapper{
+  top: -150px;
+}
+
 @media only screen and (max-width: 800px){
   .projects-wrapper{
     width: 100%;
