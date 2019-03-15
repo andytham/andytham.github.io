@@ -23,7 +23,11 @@ class Projects extends Component {
     })
   }
   renderFeatured(projects){
-    return projects.map((project, index) => {
+    let sortedProjects = projects.sort((a, b) => {
+      return a.display_id-b.display_id
+    })
+
+    return sortedProjects.map((project, index) => {
       if (project.featured){
         return <FeaturedProject project={project} key={index}/>
       } else {
