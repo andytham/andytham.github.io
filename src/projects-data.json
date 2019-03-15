@@ -1,6 +1,6 @@
 [
   {
-    "display_id": 6,
+    "display_id": 7,
     "name": "Game of Pawns",
     "shortname": "gameofpawns",
     "tagline": "Chess for Beginners",
@@ -18,7 +18,7 @@
     "tagline": "A Fully Functional Chatroom!",
     "description": "A chatroom, created and deployed as microservices, but currently running as a monolith. No need to register with real emails.",
     "techonologies": "React.js, Express, Spring Boot, Socket.io, auth0, Webpack, Docker, AWS",
-    "featured": true,
+    "featured": false,
     "url": "http://chat.andytham.com",
     "github": "https://github.com/andytham/chat-react",
     "hidden": false
@@ -36,7 +36,7 @@
     "hidden": false
   },
   {
-    "display_id": 7 ,
+    "display_id": 6 ,
     "name": "Thank Heaven",
     "shortname": "thankheaven",
     "tagline": "Website for A Children's Boutique",
