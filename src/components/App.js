@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Header from './Header';
-import hr from './images/hr.png'
+import hr from '../images/hr.png'
 import Home from './Home';
 import Birds from './Birds';
 import About from './About';

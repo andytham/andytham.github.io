@@ -9,8 +9,8 @@ class Project extends Component {
       <div className="project project-featured featured-big">
         <div className="project-name"> {project.name} </div>
         <a className="anchor-image" href={`${project.url}`}>
-          <img className="project-image featured-start" src={require(`./images/${project.shortname}-1-featured.${ext.oneF}`)} alt="Featured" />
-          <img className="project-image featured-start featured-end" src={require(`./images/${project.shortname}-2-featured.${ext.twoF}`)} alt="Featured 2" />
+          <img className="project-image featured-start" src={require(`../images/${project.shortname}-1-featured.${ext.oneF}`)} alt="Featured" />
+          <img className="project-image featured-start featured-end" src={require(`../images/${project.shortname}-2-featured.${ext.twoF}`)} alt="Featured 2" />
         </a>
         <div className="text-wrapper">
           <div className="project-tagline hover-text featured-text">{project.tagline}</div>

@@ -10,8 +10,8 @@ class Project extends Component {
         <div className="project featured-small">
           <div className="project-name"> {project.name} </div>
           <a className="anchor-image" href={`${project.url}`}>
-            <img className="project-image image-start" src={require(`./images/${project.shortname}-1.${ext.one}`)} alt="" />
-            <img className="project-image hover" src={require(`./images/${project.shortname}-2.${ext.two}`)} alt="" />
+            <img className="project-image image-start" src={require(`../images/${project.shortname}-1.${ext.one}`)} alt="" />
+            <img className="project-image hover" src={require(`../images/${project.shortname}-2.${ext.two}`)} alt="" />
           </a>
 
           <div className="project-tagline hover-text">{project.tagline}</div>
@@ -24,8 +24,8 @@ class Project extends Component {
         <div className="project">
           <div className="project-name"> {project.name} </div>
           <a href={`${project.url}`}>
-            <img className="project-image image-start" src={require(`./images/${project.shortname}-1.${ext.one}`)} alt="" />
-            <img className="project-image hover" src={require(`./images/${project.shortname}-2.${ext.two}`)} alt="" />
+            <img className="project-image image-start" src={require(`../images/${project.shortname}-1.${ext.one}`)} alt="" />
+            <img className="project-image hover" src={require(`../images/${project.shortname}-2.${ext.two}`)} alt="" />
           </a>
         
           <div className="project-tagline hover-text">{project.tagline}</div>

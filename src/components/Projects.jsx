@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FeaturedProject from './FeaturedProject';
 import Project from './Project';
-import projectData from './projects-data.json';
+import projectData from '../projects-data.json';
 
 class Projects extends Component {
   constructor(props){
