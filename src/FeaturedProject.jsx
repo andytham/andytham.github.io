@@ -15,7 +15,7 @@ class Project extends Component {
         <div className="text-wrapper">
           <div className="project-tagline hover-text featured-text">{project.tagline}</div>
           <div className="project-description hover-text featured-text"> {project.description}</div>
-          <div className="project-technologies hover-text featured-text">{project.techonologies}</div>
+          <div className="project-technologies hover-text featured-text">{project.technologies}</div>
         </div>
       </div>
     );

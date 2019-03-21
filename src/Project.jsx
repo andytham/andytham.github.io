@@ -16,7 +16,7 @@ class Project extends Component {
 
           <div className="project-tagline hover-text">{project.tagline}</div>
           <div className="project-description hover-text"> {project.description}</div>
-          <div className="project-technologies hover-text">{project.techonologies}</div>
+          <div className="project-technologies hover-text">{project.technologies}</div>
         </div>
       );
     } else if (!project.hidden){
@@ -30,7 +30,7 @@ class Project extends Component {
         
           <div className="project-tagline hover-text">{project.tagline}</div>
           <div className="project-description hover-text"> {project.description}</div>
-          <div className="project-technologies hover-text">{project.techonologies}</div>
+          <div className="project-technologies hover-text">{project.technologies}</div>
         </div>
       );
    }       else {
