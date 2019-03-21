@@ -94,5 +94,18 @@
     "url": "http://mkdreamdesign.com",
     "github": "",
     "hidden": false
+  },
+  {
+    "display_id": 2,
+    "name": "The Lounge",
+    "shortname": "lounge",
+    "tagline": "Chat and platform!",
+    "description": "Successor to the chatroom, now has a multiplayer platformer minigame and includes features such as private messaging!",
+    "technologies": "React, Redux, JWT, socket.io, Sass, Express",
+    "featured": true,
+    "url": "http://lounge.andytham.com",
+    "github": "https://github.com/andytham/the-lounge",
+    "hidden": false,
+    "gif": {"one": "png", "two": "gif", "oneF": "gif", "twoF": "gif"}
   }
 ]
