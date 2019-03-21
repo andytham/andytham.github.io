@@ -49,12 +49,8 @@ class Header extends React.Component {
           <div className="sticky-name sticky">
             ANDY THAM
           </div>
-
-              <a className="nav-link sticky" href="#projects"> home </a>
-
-
-              <a className="nav-link sticky" href="#about"> about </a>
-
+              <a className="nav-link sticky" href="/"> home </a>
+              <a className="nav-link sticky" href="/about"> about </a>
         </div>
       </div>
     )
