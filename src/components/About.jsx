@@ -26,7 +26,7 @@ class About extends Component {
           </div>
         </div>
         <div className="tech">
-          D3.js, Ruby on Rails, Node.js, React.js, Redux, Express.js, PostgreSQL, JWT, socket.io, Python, CSS3, HTML5, JavaScript ES6
+          D3.js, Ruby on Rails, Node.js, React.js, Redux, Express.js, PostgreSQL, JWT, socket.io, Python, CSS3, HTML5, JavaScript ES6, Java
         </div>
       </div>
     );
