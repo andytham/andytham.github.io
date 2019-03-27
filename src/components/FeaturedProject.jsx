@@ -10,6 +10,7 @@ class Project extends Component {
         <div className="project-name"> {project.name} </div>
         <a className="anchor-image" href={`${project.url}`}>
           <img className="project-image featured-start" src={require(`../images/${project.shortname}-1-featured.${ext.oneF}`)} alt="Featured" />
+          <br/>
           <img className="project-image featured-start featured-end" src={require(`../images/${project.shortname}-2-featured.${ext.twoF}`)} alt="Featured 2" />
         </a>
         <div className="text-wrapper">
