@@ -14,7 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build",
-    "surge": "npm run build && mv build/index.html build/200.html &&surge /Users/andy/Projects/portfolio/build http://www.andytham.com"
+    "surge": "npm run build && mv build/index.html build/200.html &&surge ./build http://www.andytham.com"
   },
   "homepage": "https://andytham.github.io/",
   "devDependencies": {
