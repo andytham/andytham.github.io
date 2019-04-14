@@ -1,6 +1,6 @@
 [
   {
-    "display_id": 7,
+    "display_id": 17,
     "name": "Game of Pawns",
     "shortname": "gameofpawns",
     "tagline": "Chess for Beginners",
@@ -10,9 +10,21 @@
     "url": "http://game-of-pawns.andytham.com",
     "github": "",
     "hidden": false
+  },
+  {
+    "display_id": 13,
+    "name": "USA Spending",
+    "shortname": "usa-spending",
+    "tagline": "Work in Progress",
+    "description": "D3 visualization of how USA spends its money",
+    "technologies": "D3.js, Sass",
+    "featured": false,
+    "url": "http://d3.andytham.com",
+    "github": "https://github.com/andytham/usa-spending-visualization",
+    "hidden": false
   },  
   {
-    "display_id": 4,
+    "display_id": 14,
     "name": "Chat",
     "shortname": "chat",
     "tagline": "A Fully Functional Chatroom!",
@@ -36,7 +48,7 @@
     "hidden": false
   },
   {
-    "display_id": 6 ,
+    "display_id": 15 ,
     "name": "Thank Heaven",
     "shortname": "thankheaven",
     "tagline": "Website for A Children's Boutique",
@@ -48,7 +60,7 @@
     "hidden": false
   },
   {
-    "display_id": 20,
+    "display_id": 30,
     "name": "Anime Pic Picker",
     "shortname": "animepicpicker",
     "tagline": "Pick some pics",
@@ -60,7 +72,7 @@
     "hidden": true
   },
   {
-    "display_id": 9,
+    "display_id": 19,
     "name": "Steam Redux",
     "shortname": "steamredux",
     "tagline": "Minified Steam news profile viewer",
@@ -72,7 +84,7 @@
     "hidden": false
   },
   {
-    "display_id": 8,
+    "display_id": 16,
     "name": "Harmony of Birds",
     "shortname": "harmonyofbirds",
     "tagline": "Create music with birds!",
