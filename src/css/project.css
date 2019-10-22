@@ -198,6 +198,11 @@ li{
 .project-featured > .text-wrapper{
   top: -150px;
 }
+.project-featured > .text-wrapper > .project-description{
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+}
 
 @media only screen and (max-width: 800px){
   .projects-wrapper{
